@@ -1,0 +1,17 @@
+.title-image {
+    background-color: aquamarine;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: left;
+    border: 1px solid black;
+}
+.image-contain{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    object-position: left;
+    border: 1px solid black;
+}
