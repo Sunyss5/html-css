@@ -3,4 +3,9 @@
     height: 400px;
     object-fit: contain;
     border: 1px solid black;
+    display: block;
+}
+
+h1, span, p{
+    display: inline-block;
 }
