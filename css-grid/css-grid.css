@@ -6,12 +6,33 @@
 
 .container-pink{
     background-color:pink;
-    border: 1px solid black;
 }
 
 .container-blue{
     background-color:rgb(185, 213, 255);
-    border: 1px solid black;
+}
+.container-header{
+    grid-area: header;
+    background-color:rgb(0, 26, 65);
+    color: white;
+}
+.container-menu{
+    grid-area: menu;
+    background-color:rgb(52, 83, 129);
+    color: white;
+}
+.container-main{
+    grid-area: main;
+    background-color:rgb(185, 213, 255);
+}
+.container-right{
+    grid-area: right;
+    background-color:rgb(185, 213, 255);
+}
+.container-footer{
+    grid-area: footer;
+    background-color:rgb(3, 3, 3);
+    color: white;
 }
 
 .grid2{
@@ -50,4 +71,15 @@
     display:grid;
     grid-template-columns: 100px 1fr 2fr;
     grid-template-rows: 100px 100px;
+}
+
+.grid7{
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    display:grid;
+    text-align: center;
+    grid-template-areas: 'header header header header'
+                         'menu main main right'
+                         'menu footer footer footer';
 }
