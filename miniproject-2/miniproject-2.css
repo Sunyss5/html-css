@@ -1,0 +1,100 @@
+body{
+    font-family: inter, sans-serif;
+    margin: auto;
+}
+
+.container{
+    background-color: rgb(126, 45, 45) ;
+    min-height: calc(100vh - 20px);
+    padding: 10px;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 50px;
+}
+
+.left-header{
+    padding: 8px 0 0 0;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+.right-header{
+    display: grid;
+    grid-template-columns: 5fr 120px 1fr;
+    column-gap: 20px;
+}
+
+#logo{
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: 100;
+}
+
+.search-input{
+    display: grid;
+    grid-template-columns: 1fr 46px;
+}
+
+.search-input > input{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px rgb(0, 0, 0);
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.search-input > i{
+    border-radius: 0 5px 5px 0;
+    padding: 12px 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+.upload{
+    display: flex;
+    color: rgb(187, 44, 44);
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload:hover{
+    cursor: pointer;
+}
+
+.upload > input{
+    display:none;
+}
+
+.upload > i{
+    color: rgb(187, 44, 44);
+}
+
+.account{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    gap:10px;
+}
+
+.account > i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(187, 44, 44);
+    border-radius: 5px 5px 5px 5px;
+    padding: 0 10px 0 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.account-name{ 
+    padding: 8px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
